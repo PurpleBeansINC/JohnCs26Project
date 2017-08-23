@@ -14,11 +14,11 @@
                     <ColumnDefinition />
                     <ColumnDefinition />
                 </Grid.ColumnDefinitions>
-                
+
                 <Button x:Name="womanEnterButton" Click="womanEnterButton_Click" Grid.Column="0" Content="Woman Want to Enter" Margin="0,0,10,0" />
                 <Button x:Name="manEnterButton" Click="manEnterButton_Click" Grid.Column="1" Content="Man Want to Enter" Margin="10,0,0,0" />
             </Grid>
-            
+
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition />
@@ -28,12 +28,10 @@
                 <Button x:Name="womanLeavesButton" Click="womanLeavesButton_Click"  Grid.Column="0" Content="Woman Leaves" Margin="0,10,10,-10" />
                 <Button x:Name="manLeavesButton" Click="manLeavesButton_Click" Grid.Column="1" Content="Man Leaves" Margin="10,10,0,-10" />
             </Grid>
-            
+
             <TextBlock Text="Counter" TextAlignment="Center" FontWeight="Bold" Margin="0 10" />
             <TextBox x:Name="counterTextBox" TextAlignment="Center" IsReadOnly="True" />
-            <Image x:Name="doorImage" Height="317" Margin="342,0,0,0"/>
+            <Image x:Name="doorImage" Height="317" Margin="342,0,0,0" />
         </StackPanel>
     </Border>
-
-
 </Window>
